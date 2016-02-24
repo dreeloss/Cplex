@@ -1,7 +1,15 @@
 package com.kronos.parent;
 
+/**
+ * Sample class for summing integers
+ * @author v.chavan
+ *
+ */
 public class Sample {
 
+	/**
+	 * Sample constructor
+	 */
 	public Sample() {
 		super();
 		// TODO Auto-generated constructor stub
