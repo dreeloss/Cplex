@@ -1,14 +1,7 @@
 package com.kronos.parent;
 
 public class Sample {
-	
-	/**
-	 * Sample empty class
-	 */
-	public Sample(){
-		
-	}
-	
+
 	/**
 	 * Sum method
 	 * @param a
