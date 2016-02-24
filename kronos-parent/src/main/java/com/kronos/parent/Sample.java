@@ -2,6 +2,11 @@ package com.kronos.parent;
 
 public class Sample {
 
+	public Sample() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	/**
 	 * Sum method
 	 * @param a
