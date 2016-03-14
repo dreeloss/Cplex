@@ -11,7 +11,7 @@ public class SampleTest {
 	@Test
 	public void test() {
 		Sample sample=new Sample();
-		int sum= sample.calculateSum(4, 3)
+		int sum= sample.calculateSum(4, 3);
 		assertEquals(7, sum);
 	}
 
