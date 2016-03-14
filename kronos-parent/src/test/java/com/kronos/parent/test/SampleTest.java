@@ -12,7 +12,7 @@ public class SampleTest {
 	public void test() {
 		Sample sample=new Sample();
 		int sum= sample.calculateSum(2, 3);
-		assertEquals(5, sum);;
+		assertEquals(5, sum);
 	}
 
 }
