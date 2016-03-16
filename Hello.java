@@ -8,7 +8,9 @@ public class Hello {
         System.out.println("moi ausii"); 
         System.out.println("newok");
         
-       
+
+        
+        
     }
      
 }
