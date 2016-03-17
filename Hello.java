@@ -11,8 +11,7 @@ public class Hello {
         System.out.println("New2");
         
         
-         
-        
+              
         
     }
      
