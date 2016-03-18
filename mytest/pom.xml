@@ -33,9 +33,11 @@
 					<!--soapUI project file location -->
 					<projectFile>REST-Project-1-soapui-project.xml</projectFile>
 					<!--output file location -->
-					<outputFolder>${project.basedir}/output/</outputFolder>
+					<!--<outputFolder>${project.basedir}/output/</outputFolder> -->
 					<!--junit results file -->
 					<junitReport>true</junitReport>
+					<printReport>true</printReport>
+					<outputFolder>${project.basedir}/target/surefire-reports</outputFolder>
 				</configuration>
 				<executions>
 					<execution>
