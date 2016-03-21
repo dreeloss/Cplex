@@ -10,10 +10,12 @@ public class Hello {
         System.out.println("ok"); 
         System.out.println("moi ausii"); 
         System.out.println("newok");
-        System.out.println("New");
-        System.out.println("New2");
+        
 
-    }
+   
+     
+     
+     }
      
 }
 
