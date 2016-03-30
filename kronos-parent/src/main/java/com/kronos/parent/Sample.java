@@ -26,8 +26,8 @@ public class Sample {
 		if (c>10)
 			System.out.println("Hello.");
 		
-		if (c>10)
-			System.out.println("Hello.");
+		if (c<10)
+			System.out.println("Hello. Its greater");
 
 		return a+b;			
 	}
