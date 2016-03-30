@@ -22,7 +22,7 @@ public class Sample {
 	 * @return a+b
 	 */
 	public int calculateSum(int a, int b){
-		int c = 10;
+	   int c = 10;
 		if (c==10)
 			System.out.println("Hello.");
 		
@@ -31,4 +31,5 @@ public class Sample {
 
 		return a+b;			
 	}
+	
 }
