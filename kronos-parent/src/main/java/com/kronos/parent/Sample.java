@@ -23,10 +23,10 @@ public class Sample {
 	 */
 	public int calculateSum(int a, int b){
 		int c = 10;
-		if (c>10)
+		if (c==10)
 			System.out.println("Hello.");
 		
-		if (c<10)
+		else
 			System.out.println("Hello. Its greater");
 
 		return a+b;			
