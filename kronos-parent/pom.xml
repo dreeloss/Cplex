@@ -17,17 +17,19 @@
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
 			<version>4.11</version>
-			<scope>test</scope>
+			<scope>compile</scope>
 		</dependency>
 
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>6.9.10</version>
-			<scope>test</scope>
+			<scope>compile</scope>
 		</dependency>
 
 	</dependencies>
+	
+	
 
 	<distributionManagement>
 		<snapshotRepository>
@@ -37,7 +39,7 @@
 	</distributionManagement>
 	<build>
 		<finalName>KronosWebApp</finalName>
-
+        <sourceDirectory>src</sourceDirectory>
 		<pluginManagement>
 			<plugins>
 				<plugin>
