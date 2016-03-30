@@ -25,6 +25,9 @@ public class Sample {
 		int c = 10;
 		if (c>10)
 			System.out.println("Hello.");
+		
+		if (c>10)
+			System.out.println("Hello.");
 
 		return a+b;			
 	}
