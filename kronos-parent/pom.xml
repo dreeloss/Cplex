@@ -417,10 +417,10 @@
              
              
              <execution>
-              <id>copy</id>
-              <phase>compile</phase>
+              <id>package</id>
+              <phase>package</phase>
               <goals>
-                     <goal>package</goal>
+                     <goal>single</goal>
               </goals>
               <configuration>
                     
