@@ -418,9 +418,9 @@
              
              <execution>
               <id>package</id>
-              <phase>package</phase>
+              <phase>test</phase>
               <goals>
-                     <goal>single</goal>
+                     <goal>package</goal>
               </goals>
               <configuration>
                     
