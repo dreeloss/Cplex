@@ -38,7 +38,7 @@
   			<artifactId>libcplex1261</artifactId>
   <version>1.0</version>
   <type>so</type>
-  <optional>true</optional>
+  
 </dependency>
 
 
@@ -47,7 +47,7 @@
   <artifactId>libcplex1261mpitransport</artifactId>
   <version>1.0</version>
   <type>so</type>
-  <optional>true</optional>
+  
 </dependency>
 
 <dependency>
@@ -55,7 +55,7 @@
   <artifactId>libcplex1261mpiworker</artifactId>
   <version>1.0</version>
   <type>so</type>
-  <optional>true</optional>
+  
 </dependency>
 
 <dependency>
@@ -63,7 +63,7 @@
   <artifactId>libcplex1261processtransport</artifactId>
   <version>1.0</version>
   <type>so</type>
-  <optional>true</optional>
+  
 </dependency>
 
 <dependency>
@@ -71,7 +71,7 @@
   <artifactId>libcplex1261processworker</artifactId>
   <version>1.0</version>
   <type>so</type>
-  <optional>true</optional>
+  
 </dependency>
 
 <dependency>
@@ -79,7 +79,7 @@
   <artifactId>libcplex1261remotejni</artifactId>
   <version>1.0</version>
   <type>so</type>
-  <optional>true</optional>
+ 
 </dependency>
 
 <dependency>
@@ -87,7 +87,7 @@
   <artifactId>libcplex1261tcpiptransport</artifactId>
   <version>1.0</version>
   <type>so</type>
-  <optional>true</optional>
+  
 </dependency>
 
 <dependency>
@@ -95,7 +95,7 @@
   <artifactId>libcplex1261tcpipworker</artifactId>
   <version>1.0</version>
   <type>so</type>
-  <optional>true</optional>
+  
 </dependency>
 
 	</dependencies>
