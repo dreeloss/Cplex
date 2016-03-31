@@ -215,11 +215,6 @@
                 </goals>
             </execution>
         </executions>
-		<excludes>
-		    <exclude>
-			</exclude>
-		
-		</excludes>
     </plugin>
     
 
