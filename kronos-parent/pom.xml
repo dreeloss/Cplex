@@ -253,6 +253,92 @@
   									<type>so</type>
                              <overWrite>true</overWrite>
                       <outputDirectory>${project.build.directory}/lib</outputDirectory>
+<<<<<<< HEAD
+                      <destFileName>libcplex1261.so</destFileName>
+                     </artifactItem>
+                     
+                     <artifactItem>
+                             <groupId>com.cplex.library</groupId>
+  									<artifactId>libcplex1261mpitransport</artifactId>
+ 								    <version>1.0</version>
+  									<type>so</type>
+                             <overWrite>true</overWrite>
+                      <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                       <destFileName>libcplex1261mpitransport.so</destFileName>
+                     </artifactItem>
+                     
+                     <artifactItem>
+                             <groupId>com.cplex.library</groupId>
+  									<artifactId>libcplex1261mpiworker</artifactId>
+ 								    <version>1.0</version>
+  									<type>so</type>
+                             <overWrite>true</overWrite>
+                      <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                       <destFileName>libcplex1261mpiworker.so</destFileName>
+                     </artifactItem>
+                     
+                     <artifactItem>
+                             <groupId>com.cplex.library</groupId>
+  									<artifactId> libcplex1261processtransport</artifactId>
+ 								    <version>1.0</version>
+  									<type>so</type>
+                             <overWrite>true</overWrite>
+                      <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                      <destFileName>libcplex1261processtransport.so</destFileName>
+                     </artifactItem>
+                     
+                     
+                     <artifactItem>
+                             <groupId>com.cplex.library</groupId>
+  									<artifactId>libcplex1261processworker</artifactId>
+ 								    <version>1.0</version>
+  									<type>so</type>
+                             <overWrite>true</overWrite>
+                      <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                       <destFileName>libcplex1261processworker.so</destFileName>
+                     </artifactItem>
+                     
+                     <artifactItem>
+                             <groupId>com.cplex.library</groupId>
+  									<artifactId>libcplex1261remote</artifactId>
+ 								    <version>1.0</version>
+  									<type>so</type>
+                             <overWrite>true</overWrite>
+                      <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                      <destFileName>libcplex1261remote.so</destFileName>
+                     </artifactItem>
+                     
+                     
+                     
+                     <artifactItem>
+                             <groupId>com.cplex.library</groupId>
+  									<artifactId>libcplex1261remotejni</artifactId>
+ 								    <version>1.0</version>
+  									<type>so</type>
+                             <overWrite>true</overWrite>
+                      <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                      <destFileName>libcplex1261remotejni.so</destFileName>
+                     </artifactItem>
+                     
+                     <artifactItem>
+                             <groupId>com.cplex.library</groupId>
+  									<artifactId>libcplex1261tcpiptransport</artifactId>
+ 								    <version>1.0</version>
+  									<type>so</type>
+                             <overWrite>true</overWrite>
+                      <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                      <destFileName>libcplex1261tcpiptransport.so</destFileName>
+                     </artifactItem>
+                     
+                     <artifactItem>
+                             <groupId>com.cplex.library</groupId>
+  									<artifactId>libcplex1261tcpipworker</artifactId>
+ 								    <version>1.0</version>
+  									<type>so</type>
+                             <overWrite>true</overWrite>
+                      <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                      <destFileName>libcplex1261tcpipworker.so</destFileName>
+=======
                      </artifactItem>
                      
                      <artifactItem>
@@ -327,6 +413,7 @@
   									<type>so</type>
                              <overWrite>true</overWrite>
                       <outputDirectory>${project.build.directory}/lib</outputDirectory>
+>>>>>>> branch 'master' of https://github.com/dreeloss/Cplex.git
                      </artifactItem>
                
                      
