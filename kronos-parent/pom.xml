@@ -137,7 +137,7 @@
                     <reuseForks>true</reuseForks>
                    
                    <skipTests>${skip.unit.tests}</skipTests>
-                    <argLine>-Djava.library.path=target/lib/</argLine>
+                    
                     <argLine>${surefireArgLine}</argLine>
    
                    <excludes></excludes>
@@ -229,6 +229,7 @@
                      <goal>copy</goal>
               </goals>
               <configuration>
+                    <argLine>-Djava.library.path=target/lib/</argLine>
                     <artifactItems>
                     
                       <artifactItem>
