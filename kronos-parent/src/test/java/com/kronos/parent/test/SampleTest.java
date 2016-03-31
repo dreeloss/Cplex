@@ -8,11 +8,14 @@ import com.kronos.parent.Sample;
 
 public class SampleTest {
 
+
 	@Test
-	public void test() {
-		Sample sample=new Sample();
-		int sum= sample.calculateSum(4, 3);
+	public  void testCplex_Hello() {
+		Sample Cplex=new Sample();
+	    int sum= Cplex.model1(4, 3);
 		assertEquals(7, sum);
 	}
 
 }
+
+
