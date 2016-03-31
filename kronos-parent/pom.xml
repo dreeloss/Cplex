@@ -191,7 +191,9 @@
 				</executions>
 			</plugin>
 			
-			<plugin>
+	
+	
+	<plugin>
         <artifactId>maven-assembly-plugin</artifactId>
         <configuration>
             <archive>
@@ -203,6 +205,10 @@
             <descriptorRefs>
                 <descriptorRef>jar-with-dependencies</descriptorRef>
             </descriptorRefs>
+          
+           <excludes>
+    <exclude>*:so*</exclude>
+</excludes>
   
         </configuration>
         <executions>
@@ -218,9 +224,7 @@
             
         </executions>
         
-        <excludes>
-    <exclude>*:so*</exclude>
-</excludes>
+       
     </plugin>
     
 
