@@ -138,7 +138,7 @@
                    
                    <skipTests>${skip.unit.tests}</skipTests>
                     
-                    <argLine>${surefireArgLine}</argLine>
+                    <argLine>${surefireArgLine} -Djava.library.path=target/lib/</argLine>
    
                    <excludes></excludes>
                 </configuration>
@@ -229,7 +229,7 @@
                      <goal>copy</goal>
               </goals>
               <configuration>
-                    <argLine>-Djava.library.path=target/lib/</argLine>
+                    
                     <artifactItems>
                     
                       <artifactItem>
