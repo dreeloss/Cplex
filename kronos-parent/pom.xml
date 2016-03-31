@@ -151,6 +151,9 @@
             <descriptorRefs>
                 <descriptorRef>jar-with-dependencies</descriptorRef>
             </descriptorRefs>
+  
+                    <argLine>-Djava.library.path=target/lib/</argLine>
+				
         </configuration>
         <executions>
             <execution>
