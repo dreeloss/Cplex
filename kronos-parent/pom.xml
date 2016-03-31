@@ -135,9 +135,10 @@
 				<configuration>
                     <forkCount>5</forkCount>
                     <reuseForks>true</reuseForks>
-                   <argLine>${surefireArgLine}</argLine>
+                   
                    <skipTests>${skip.unit.tests}</skipTests>
                     <argLine>-Djava.library.path=target/lib/</argLine>
+                    <argLine>${surefireArgLine}</argLine>
    
                    <excludes></excludes>
                 </configuration>
