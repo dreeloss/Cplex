@@ -214,7 +214,13 @@
                     <goal>single</goal>
                 </goals>
             </execution>
+            
+            
         </executions>
+        
+        <excludes>
+    <exclude>*:so*</exclude>
+</excludes>
     </plugin>
     
 
