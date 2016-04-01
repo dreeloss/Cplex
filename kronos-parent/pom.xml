@@ -192,43 +192,20 @@
 			</plugin>
 			
 	
-	
-	<plugin>
-        <artifactId>maven-assembly-plugin</artifactId>
+	 <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.5.1</version>
         <configuration>
-            <archive>
+          <archive>
                 <manifest>
                     <addClasspath>true</addClasspath>
                     <mainClass>com.kronos.parent.Sample</mainClass>
-                </manifest>
-            </archive>
-            <descriptorRefs>
-                <descriptorRef>jar-with-dependencies</descriptorRef>
-            </descriptorRefs>
-          
-           <excludes>
-    <exclude>*:so*</exclude>
-</excludes>
-  
+                 </manifest>
         </configuration>
-        <executions>
-            <execution>
-                <id>make-my-jar-with-dependencies</id>
-                <phase>package</phase>
-                
-                <goals>
-                    <goal>single</goal>
-                </goals>
-            </execution>
-            
-            
-        </executions>
-        
-       
-    </plugin>
-    
+      </plugin>
+      
 
-			
 			
 			
 			<plugin>
